@@ -48,8 +48,6 @@ app.use("/orders", orderRoutes);
 app.use("/user_shoppings", user_shoppings_Routes)
 
 
-
-// 이 부분은 잘 모르겠다..
 // Handling CORS 관련된 코드이다.
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
